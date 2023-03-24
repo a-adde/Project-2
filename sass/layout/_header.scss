@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 2px -2px $shadow;
+    // box-shadow: 0 4px 8px 0 $shadow, 0 6px 20px 0 $shadow;
+    padding: 20px 0px 10px 0px;
+    background-color: $whitecolor;
+    // margin: 0.5px
+  & h1 {
+    margin: 0px;
+  }
+  & a {
+    margin: auto 50px auto -60px;
+    text-decoration: none;
+    color: black;
+  }
+  }
