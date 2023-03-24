@@ -1,0 +1,45 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700&family=Shrikhand&display=swap");
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(0.5rem, 0.5rem + 2vw, 1em);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.location__title, .steps__title, .rest__title {
+    font-size: 1.5rem;
+}
+
+.location__menu > p, .rest__cardbody > h4, .rest__cardbody > p {
+    font-size: 1.1rem;
+}
+
+.restname__text__title {
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 1.9rem;
+}
+
+.card__title {
+    h4 {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    &__description {
+        &__ingred {
+            line-height: 1.5;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+        &__price {
+            line-height: 1.5;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+    }
+}
+
