@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover a restaurant you love">
+    <meta name="keywords" content="food, restaurant">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ohmyfood</title>
+
+    <!--CSS code link-->
+    <!-- Need to change to link to SASS -->
+    <!-- <link href="css/style.css" type="text/css" rel="stylesheet"> -->
+    <link href="public/css/prefixed/style.css" type="text/css" rel="stylesheet">
+
+    <link href="public/images/logo/ohmyfood.png" type="image/x-icon" rel="shortcut icon" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader-animation"></div>
+
+    <div class="bg homepage">
+        <!-- Header-->
+        <header class="header homepage">
+            <h1><img src="public/images/logo/ohmyfood@2x.svg" alt="Logo"></h1>
+        </header>
+
+        <main class="main homepage">
+            <!-- Location Nav & Menu -->
+            <section class="location">
+                <div class="location__nav">
+                    <p><i class="fas fa-map-marker-alt"></i>Paris, Belleville</p>
+                </div>
+                <div class="location__menu">
+                    <h2 class="location__title">Book the menu you like</h2>
+                    <p class="location__byline">Discover top-of-the-art restaurants we picked for you</p>
+                    <button class="btn">Explore our restaurants</button>
+                </div>
+            </section>
+
+            <!-- Steps Section -->
+            <!-- How it works -->
+            <section class="steps">
+                <h2 class="steps__title">How it works</h2>
+                <ol class="steps__list">
+                    <li class="steps__list__step">
+                        <!-- <i class="fa-solid fa-mobile-screen-button"></i> -->
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Choose a restaurant</span>
+                    </li>
+                    <li class="steps__list__step">
+                        <!-- <i class="fa-solid fa-list-ul"></i> -->
+                        <i class="fas fa-list-ul"></i>
+                        <span>Create your menu</span>
+                    </li>
+                    <li class="steps__list__step">
+                        <i class="fas fa-store"></i>
+                        <span>Go enjoy it at the restaurant</span>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Restaurants Section -->
+            <section class="rest">
+                <h2 class="rest__title">Restaurants</h2>
+                <!-- Card 1 -->
+                <div class="rest__cards">
+                    <div class="rest__card">
+                        <a href="thefullpalette.html">
+                            <div class="rest__card__img card__img">
+                                <span class="rest__card__img__new card__img__new"><p>New</p></span>
+                                <img src="public/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Food from The Full Palette restaurant">
+                            </div>
+                            <div class="rest__cardbody">
+                                <h4>The Full Palette</h4>
+                                <p>New York</p>
+                                <div class="rest__cardbody__hrt">
+                                    <span class="fa-stack">
+                                        <i class="far hrt-empty fa-heart fa-stack-1x"></i>
+                                        <i class="fas fa-heart fa-stack-1x"></i>
+                                    </span>
+                                </div>
+                            </div>       
+                        </a>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="rest__card">
+                        <a href="theenchantedplate.html">
+                            <div class="rest__card__img card__img">
+                                <span class="rest__card__img__new card__img__new"><p>New</p></span>
+                                <img src="public/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Food from The Enchanted Plate restaurant">
+                            </div>
+                            <div class="rest__cardbody">
+                                <h4>The Enchanted Plate</h4>
+                                <p>New York</p>
+                                <div class="rest__cardbody__hrt">
+                                    <span class="fa-stack">
+                                        <i class="far hrt-empty fa-heart fa-stack-1x"></i>
+                                        <i class="fas fa-heart fa-stack-1x"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="rest__card">
+                        <a href="bastille.html">
+                            <div class="rest__card__img card__img">
+                                <!-- <span class="rest__card__img__new card__img__new"><p>New</p></span> -->
+                                <img src="public/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Food from Bastille restaurant">
+                            </div>
+                            <div class="rest__cardbody">
+                                <h4>Bastille</h4>
+                                <p>New York</p>
+                                <div class="rest__cardbody__hrt">
+                                    <span class="fa-stack">
+                                        <i class="far hrt-empty fa-heart fa-stack-1x"></i>
+                                        <i class="fas fa-heart fa-stack-1x"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="rest__card">
+                        <a href="legourmand.html">
+                            <div class="rest__card__img card__img">
+                                <!-- <span class="rest__card__img__new card__img__new"><p>New</p></span> -->
+                                <img src="public/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Food from Le Gourmand restaurant">
+                            </div>
+                            <div class="rest__cardbody">
+                                <h4>Le Gourmand</h4>
+                                <p>New York</p>
+                                <div class="rest__cardbody__hrt">
+                                    <span class="fa-stack">
+                                        <i class="far hrt-empty fa-heart fa-stack-1x"></i>
+                                        <i class="fas fa-heart fa-stack-1x"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer homepage">
+            <ul class="footer__list">
+                <li><a href="#"><img src="public/images/logo/ohmyfood@2x.svg" alt="Logo"></a></li>
+                <li>
+                    <i class="fas fa-utensils"></i>
+                    <a href="#">Suggest a restaurant</a>
+                </li>            
+                <li>
+                    <i class="fas fa-hands-helping"></i>
+                    <a href="#">Become a partner</a>
+                </li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="mailto:hi@aishah.dev">Contact</a></li>
+            </ul>
+        </footer> 
+    </div>
+</body>
+</html>
