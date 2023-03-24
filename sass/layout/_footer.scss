@@ -1,0 +1,28 @@
+//footer
+.footer {
+    background-color: $footercolor;
+    color: $whitecolor;
+    padding-bottom: 40px;
+    a {
+        color: $whitecolor;
+        &:visited {
+            color: $whitecolor;
+            }
+    }
+    img {
+        filter: invert(100%);
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+        // padding: 0px 20px;
+    }
+    li {
+        padding: 3px 20px;
+    }
+    .fa-utensils {
+        padding-right: 12px;   
+    }
+    .fa-hands-helping {
+        padding-right: 6px;   
+    }
+  }
