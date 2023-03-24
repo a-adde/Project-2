@@ -1,0 +1,20 @@
+.fa-stack {
+    font-size: x-large;
+    position: relative;
+    left: 80%;
+    bottom: 1.7rem;
+    cursor: pointer;
+    & :nth-child(2) {
+      color: transparent;
+      transition: all 350ms;
+      padding: 0px;
+      &:hover {
+        background: linear-gradient(to bottom left, $primarycolor, $secondarycolor);
+        font-size: large;
+        transform: scale(2);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+      }
+    }
+  }
