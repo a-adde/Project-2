@@ -1,0 +1,53 @@
+.homepage {
+    animation: opacity 2300ms cubic-bezier(1, -0.25, 0.93, 0.59);
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.loader-animation {
+    content: " ";
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 15px solid;
+    border-color: $primarycolor transparent $secondarycolor transparent;
+    animation: loader-animation 2000ms linear 0s 1 none;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    }
+@keyframes loader-animation {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    25% {
+        transform: rotate(180deg);
+        opacity: 0.95;
+    }
+    50% {
+        transform: rotate(360deg);
+        opacity: 0.9;
+    }
+    75% {
+    transform: rotate(540deg);
+    opacity: 0.85;
+    }
+    100% {
+        transform: rotate(720deg);
+        opacity: 0;
+    }
+}
+
