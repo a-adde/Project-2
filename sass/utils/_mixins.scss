@@ -54,7 +54,7 @@
     }
 }
 
-@mixin card_appear ($delay: 0) {
+@mixin card_appear ($delay: 0s) {
     .card {
       animation-name: appear;
       animation-duration: 1000ms;

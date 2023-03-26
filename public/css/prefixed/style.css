@@ -463,7 +463,7 @@ a {
   animation-name: appear;
   animation-duration: 1000ms;
   animation-fill-mode: backwards;
-  animation-delay: 0;
+  animation-delay: 0s;
 }
 @keyframes appear {
   from {
